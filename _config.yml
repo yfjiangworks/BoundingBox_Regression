@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
 
 title: Precise Regression for Bounding Box Correction for Improved Tracking Based on Deep Reinforcement Learning
-description: A deep reinforcement learning based bounding box regression method can improve multi-person tracking performance significantly. (Published in ICASSP2018.)
+description: A deep reinforcement learning based bounding box regression method can improve multi-person tracking performance significantly. <br /> (Published in ICASSP2018.)
