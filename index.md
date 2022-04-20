@@ -11,7 +11,9 @@ In this paper, we propose a precise regression approach for correcting imprecise
 
 # Overview
 
-![Image](resources/fig2.png)
+<p align="center">
+  <img width="85%" height="auto" src="resources/fig2.png">
+</p>
 <p align="center">
 
 </p>
@@ -19,7 +21,9 @@ In this paper, we propose a precise regression approach for correcting imprecise
 Error bounding box correction task essentially can be modeled as a framework of Markov decision process (MDP) because the resulting outcome is partly random and partly under the control of a decision maker.  We can exploit this hypothesis to model an agent to make the sequence of decisions. We set a single bounding box region as environment (or observation), so that the agent can make actions to move the bounding box according to the environment. Our proposed method follows a neighborhood search strategy, which starts from a random region near by previous target location and then adjusts position and size to correct target. Above figure illustrates a part of the regression process during tracking a pedestrian.
 
 # Experimental results
-![Image](resources/fig3.png)
+<p align="center">
+  <img width="75%" height="auto" src="resources/fig3.png">
+</p>
 <p align="center">
 Example sequences of regression procedure.
 </p>
